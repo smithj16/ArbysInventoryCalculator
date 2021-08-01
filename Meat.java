@@ -1,6 +1,3 @@
-
-
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -44,11 +41,12 @@ public class Meat extends ArbysInventory{
 
     public void storeInventory(){
         for(int i = 0; i < result.length; i++){
-            outFile.println(product[i] + ": " + result[i]);
+           // outFile.println(product[i] + ": " + result[i]);
+            jsonObject.put(prduct[i] + ": " + result[i]);
         }
 
-        outFile.println("\n");
+        //outFile.println("\n");
         System.out.println("Inventory stored....");
-        outFile.close();
+        //outFile.close();
     }
 }
