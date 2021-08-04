@@ -1,3 +1,5 @@
+
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -12,6 +14,7 @@ public class Freezer extends ArbysInventory {
     private final double [] Case = new double [15];
     private final double [] Bag = new double [15];
     private final double [] result = new double [15];
+
 
     public Freezer() throws IOException {
         // nothing here
@@ -50,12 +53,11 @@ public class Freezer extends ArbysInventory {
 
     public void storeInventory(){
         for(int i = 0; i < result.length; i++){
-            //outFile.println(product[i] + ": " + result[i]);
-            jsonObject.put(prduct[i] + ": " + result[i]);
+            outFile.println(product[i] + ": " + result[i]);
         }
-        //outFile.println("\n");
-        System.out.println("Inventory stored....");
-        //outFile.close();
+        outFile.println("\n");
+        System.out.println("Freezer Inventory recorded....");
+        outFile.close();
     }
 
 }

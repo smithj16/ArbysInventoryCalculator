@@ -5,9 +5,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.io.File;
-import org.json.simple.JSONObject;
-
 
 /*
     This program calculates Arby's inventory. Each class calculates a part of the inventory and stores the result in a text file "ArbysInventory".
@@ -23,10 +20,8 @@ public class ArbysInventory {
 
 
     FileWriter file = new FileWriter("ArbysInventory.txt", true);
-    //PrintWriter outFile = new PrintWriter(file);
+    PrintWriter outFile = new PrintWriter(file);
     private static Scanner input = new Scanner(System.in);
-    JSONObject jsonObject = new JSONObject();
-
 
     public ArbysInventory() throws IOException {
         // nothing here
@@ -124,39 +119,6 @@ public class ArbysInventory {
         return input.nextInt();
     }
 
-    public  void calculateInventory(Freezer f, Cooler c, Dry d, Meat m){
-
-              outfile.println("/n");
-              outfile.flush();
-              outfile.close();
-
-              f.collect();
-              f.calculate();
-              f.storeInventory();
-
-              c.Collect();
-              c.calculate();
-              c.storeInventory();
-
-              d.collect();
-              d.calculate();
-              d.storeInventory();
-
-              m.collect();
-              m.calculate();
-              m.storeInventory();
-              try {
-                  file.write(jsonObject.toJSONString());
-                  System.out.println("Inventory Saved...");
-                  file.close();
-              }catch(IOException e){
-                  e.printStackTrace();
-              }
-
-        //System.out.println("Inventory Saved...");
-
-    }
-
 
     public static void main(String[] args) throws IOException {
 
@@ -166,11 +128,33 @@ public class ArbysInventory {
         Cooler c1 = new Cooler();
         Dry d1 = new Dry();
         Meat m1 = new Meat();
-
+        
         // collect inventory
         if (answer == 1) {
+           
+           //Clear text file
+            outFile.print(""); 
+            outFile.close; 
 
-           ArbysInventory.calculateInventory(f1,c1,d1,m1);
+            f1.collect();
+            f1.calculate();
+            f1.storeInventory();
+
+            c1.Collect();
+            c1.calculate();
+            c1.storeInventory();
+
+            d1.collect();
+            d1.calculate();
+            d1.storeInventory();
+
+            m1.collect();
+            m1.calculate();
+            m1.storeInventory();
+
+            System.out.println("Inventory Saved...");
+
+
 
         }
         // change inventory
