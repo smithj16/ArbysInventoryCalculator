@@ -15,7 +15,6 @@ public class Freezer extends ArbysInventory {
     private final double [] Bag = new double [15];
     private final double [] result = new double [15];
 
-
     public Freezer() throws IOException {
         // nothing here
     }
@@ -56,7 +55,7 @@ public class Freezer extends ArbysInventory {
             outFile.println(product[i] + ": " + result[i]);
         }
         outFile.println("\n");
-        System.out.println("Freezer Inventory recorded....");
+        System.out.println("Freezer inventory stored....");
         outFile.close();
     }
 

@@ -48,7 +48,7 @@ public class Meat extends ArbysInventory{
         }
 
         outFile.println("\n");
-        System.out.println("Meat Inventory recorded....");
+        System.out.println("Meat inventory stored....");
         outFile.close();
     }
 }

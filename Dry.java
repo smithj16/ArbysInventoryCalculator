@@ -51,7 +51,7 @@ public class Dry extends ArbysInventory{
         }
 
         outFile.println("\n");
-        System.out.println("Dry Inventory recorded....");
+        System.out.println("Dry inventory stored....");
         outFile.close();
     }
 }

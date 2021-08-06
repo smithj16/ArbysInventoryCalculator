@@ -52,7 +52,7 @@ public class Cooler extends ArbysInventory{
         }
 
         outFile.println("\n");
-        System.out.println("Cooler Inventory recorded....");
+        System.out.println("Cooler inventory stored....");
         outFile.close();
     }
 }
