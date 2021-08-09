@@ -19,8 +19,8 @@ import java.io.PrintWriter;
 public class ArbysInventory {
 
 
-    FileWriter file = new FileWriter("ArbysInventory.txt", true);
-    PrintWriter outFile = new PrintWriter(file);
+    static FileWriter file = new FileWriter("ArbysInventory.txt", true);
+    static PrintWriter outFile = new PrintWriter(file);
     private static Scanner input = new Scanner(System.in);
 
     public ArbysInventory() throws IOException {
