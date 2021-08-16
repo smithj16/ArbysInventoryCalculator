@@ -118,3 +118,100 @@ Brisket: 8.0
 CornBeef: 8.0
 
 
+ChickenBreast: 0.0
+Subroll: 0.0
+MiniBuns: 0.0
+StarBuns: 0.0
+JalapenoPoppers: 0.0
+MozzarellaSticks: 0.0
+CherryTurnover: 0.0
+AppleTurnover: 0.0
+HoneywheatBread: 0.0
+TripleChocolateCookie: 0.0
+SaltyChocolateCookie: 0.0
+MarbleRye: 0.0
+ChickenFingers: 0.0
+GreekGyro: 0.0
+CurlyFries: 0.0
+
+
+Bacon: 0.0
+Swisscheese: 0.0
+Milk: 0.0
+Aquafina: 0.0
+Shakebase: 0.0
+TurkeyPortion: 0.0
+CornbeefPortion: 0.0
+BrisketPortion: 0.0
+
+
+Regularbuns: 0.0
+Onionbuns: 0.0
+twentyOzcups: 0.0
+thirtyOzcups: 0.0
+
+
+Beef: 0.0
+Turkey: 0.0
+Ham: 0.0
+Brisket: 0.0
+CornBeef: 0.0
+
+
+ChickenBreast: 70.0
+Subroll: 552.0
+MiniBuns: 0.0
+StarBuns: 0.0
+JalapenoPoppers: 0.0
+MozzarellaSticks: 0.0
+CherryTurnover: 0.0
+AppleTurnover: 0.0
+HoneywheatBread: 0.0
+TripleChocolateCookie: 0.0
+SaltyChocolateCookie: 0.0
+MarbleRye: 0.0
+ChickenFingers: 0.0
+GreekGyro: 0.0
+CurlyFries: 0.0
+
+
+ChickenBreast: 0.0
+Subroll: 0.0
+MiniBuns: 0.0
+StarBuns: 0.0
+JalapenoPoppers: 0.0
+MozzarellaSticks: 0.0
+CherryTurnover: 0.0
+AppleTurnover: 0.0
+HoneywheatBread: 0.0
+TripleChocolateCookie: 0.0
+SaltyChocolateCookie: 0.0
+MarbleRye: 0.0
+ChickenFingers: 0.0
+GreekGyro: 0.0
+CurlyFries: 0.0
+
+
+Bacon: 0.0
+Swisscheese: 0.0
+Milk: 0.0
+Aquafina: 0.0
+Shakebase: 0.0
+TurkeyPortion: 0.0
+CornbeefPortion: 0.0
+BrisketPortion: 0.0
+
+
+Regularbuns: 0.0
+Onionbuns: 0.0
+twentyOzcups: 0.0
+thirtyOzcups: 0.0
+
+
+Beef: 0.0
+Turkey: 0.0
+Ham: 0.0
+Brisket: 0.0
+CornBeef: 0.0
+
+

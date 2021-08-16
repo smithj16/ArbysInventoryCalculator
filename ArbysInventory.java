@@ -19,8 +19,8 @@ import java.io.PrintWriter;
 public class ArbysInventory {
 
 
-    static FileWriter file = new FileWriter("ArbysInventory.txt", true);
-    static PrintWriter outFile = new PrintWriter(file);
+    FileWriter file = new FileWriter("ArbysInventory.txt", true);
+    PrintWriter outFile = new PrintWriter(file);
     private static Scanner input = new Scanner(System.in);
 
     public ArbysInventory() throws IOException {
@@ -131,10 +131,6 @@ public class ArbysInventory {
         
         // collect inventory
         if (answer == 1) {
-           
-           //Clear text file
-            outFile.print(""); 
-            outFile.close; 
 
             f1.collect();
             f1.calculate();
